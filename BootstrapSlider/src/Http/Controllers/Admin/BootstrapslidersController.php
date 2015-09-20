@@ -89,11 +89,11 @@ class BootstrapslidersController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param BlockRequest $request
+     * @param Request $request
      * @param $id
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function update(BlockRequest $request, $id)
+    public function update(Request $request, $id)
     {
         if ($this->bootstrapslider->saveData('update',$data,$id))
         {
