@@ -95,7 +95,7 @@ class BootstrapslidersController extends Controller
      */
     public function update(Request $request, $id)
     {
-        if ($this->bootstrapslider->saveData('update',$data,$id))
+        if ($this->bootstrapslider->saveData('update',$request->all(),$id))
         {
             Logs::add('process',"Slider Başarıyla Düzenlendi \nSlider ID:{$id}");
             Flash::success('Başarıyla Düzenlendi');
