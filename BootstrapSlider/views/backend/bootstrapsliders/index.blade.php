@@ -29,7 +29,7 @@
                     <div class="caption font-green-haze" style="width: 100%;">
                         <i class="fa fa-icon fa-pencil font-green-haze"></i>
                         <span class="caption-subject bold uppercase"> Sliderlar</span>
-                        <a class="btn green pull-right" href="{{ route('admin.bootatrapslider.create') }}">
+                        <a class="btn green pull-right" href="{{ route('admin.bootstrapslider.create') }}">
                             <i class="fa fa-plus"></i> Yeni Ekle
                         </a>
                     </div>
@@ -52,8 +52,8 @@
                                 <td>{{ $slider->title }}</td>
 								<td>{{ $slider->slider }}</td>
                                 <td>
-                                    <a href="{{ route('admin.bootatrapslider.edit',$slider->id) }}" class="btn btn-primary btn-sm"> <i class="fa fa-edit"></i> Düzenle</a>
-                                    <a href="{{ route('admin.bootatrapslider.destroy',$slider->id) }}" class="btn btn-danger btn-sm" data-method="delete"> <i class="fa fa-trash"></i> Sil</a>
+                                    <a href="{{ route('admin.bootstrapslider.edit',$slider->id) }}" class="btn btn-primary btn-sm"> <i class="fa fa-edit"></i> Düzenle</a>
+                                    <a href="{{ route('admin.bootstrapslider.destroy',$slider->id) }}" class="btn btn-danger btn-sm" data-method="delete"> <i class="fa fa-trash"></i> Sil</a>
                                 </td>
                             </tr>
                         @endforeach
