@@ -22,6 +22,10 @@ return [
     'route'=>'admin.bootstrapslider.index',
     'path'=>'admin/bootstrapslider,admin/bootstrapslider/*',
   ],
+  'sidebar_lang'=>[
+    ['title'=>'Slider',"lang"=>'tr'],
+    ['title'=>'Slider',"lang"=>'en'],
+  ],
   'pages'=>[
   'admin/bootstrapslider',
   'admin/bootstrapslider/*',
